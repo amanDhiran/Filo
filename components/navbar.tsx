@@ -15,7 +15,7 @@ export default function Navbar({ }): any {
             </Link>
             <div className="items-center hidden gap-2 md:flex">
                 <ModeToggle />
-                <Link href="https://github.com/benlhachemi/modifio.git">
+                <Link href="https://github.com/amanDhiran/Filo.git">
                     <Button
                         variant="ghost"
                     >
