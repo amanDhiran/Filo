@@ -11,33 +11,14 @@ export default function Navbar({ }): any {
     return (
         <nav className="fixed z-50 flex items-center justify-between w-full h-24 px-4 py-10 backdrop-blur-md bg-background bg-opacity-30 md:px-8 lg:px-12 xl:px-16 2xl:px-24">
             <Link href="/">
-                {/* <Image alt="logo" className="w-40 cursor-pointer dark:invert" src="/images/logo.svg" height={100} width={170} /> */}
-                Logo
+                <Image alt="logo" className="w-36 md:w-40 cursor-pointer dark:invert" src="/logo.svg" height={100} width={170} />
             </Link>
-            <div className="hidden gap-1 md:gap-2 lg:gap-4 md:flex">
-                <Button variant="ghost" className="font-semibold text-md">
-                    <Link href="/">Home</Link>
-                </Button>
-                <Link href="/about">
-                    <Button variant="ghost" className="font-semibold text-md">
-                        About
-                    </Button>
-                </Link>
-                <Link href="/privacy-policy">
-                    <Button variant="ghost" className="font-semibold text-md">
-                        Privacy Policy
-                    </Button>
-                </Link>
-            </div>
             <div className="items-center hidden gap-2 md:flex">
                 <ModeToggle />
                 <Link href="https://github.com/benlhachemi/modifio.git">
                     <Button
-                        variant="default"
-                        className="items-center hidden gap-2 bg-orange-600 rounded-full w-fit md:flex"
-                        size="lg"
+                        variant="ghost"
                     >
-                        <span>Github Repo</span>
                         <span className="text-xl">
                             <BsGithub />
                         </span>

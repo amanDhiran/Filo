@@ -23,7 +23,7 @@ export function ModeToggle() {
       variant={"ghost"}
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
-      {theme === "dark" ? <LuSun /> : <LuMoon />}
+      {theme === "dark" ? <LuSun size={24} /> : <LuMoon size={24} />}
     </Button>
   );
 }

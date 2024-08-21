@@ -7,13 +7,10 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "Modifio - Free Unlimited File Converter",
-    description: `Unleash your creativity with Modifio – the ultimate online tool for
-  unlimited and free multimedia conversion. Transform images, audio, and
-  videos effortlessly, without restrictions. Start converting now and
-  elevate your content like never before!`,
-    creator: "SOUHAIL BEN-LHACHEMI",
-    keywords: "image converter, video converter, audio converter, unlimited image converter, unlimited video converter",
+    title: "Filo - Free Image Converter",
+    description: `Convert images in bulk without losing their quality or installing any software using Filo’s JPG converter tool. It’s fast, free & easy-to-use!`,
+    creator: "AMAN DHIRAN",
+    keywords: "image converter, unlimited image converter",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
