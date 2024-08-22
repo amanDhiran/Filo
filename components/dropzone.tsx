@@ -43,7 +43,7 @@ const extensions = {
   ],
 };
 
-export default function dropzone() {
+export default function Dropzone() {
   const [isHover, setIsHover] = useState<boolean>(false);
   const [actions, setActions] = useState<Action[]>([]);
   const [selected, setSelected] = useState<string>("...");
